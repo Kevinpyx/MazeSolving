@@ -3,7 +3,7 @@ Using BFS to find the shortest path in a maze from Start to End if there exists 
 
 
 ## To use the program
-Make the file with the Makefile provided. To run it in the terminal window: type ./solve < maze.txt where maze.txt is a maze file
+Make the file with the Makefile provided. To run it in the terminal window: type ./solve < maze.txt where maze.txt is a maze file (Maze files can be generated using the amaze.c file provided).
 
 
 ## Maze file format
@@ -14,21 +14,3 @@ The maze grid is given next. It will consist of an H×W matrix of characters, wh
 - S represents the start cell,
 - E represents the end cell, and
 - any other character represents a blocked cell.
-
-### Examples of maze file content: 
-Here is one example
-13 41
-*********************S*******************
-*   *       *         *                 *
-*** * *** *** ******* * ******* * ***** *
-*   *   *     *   *   *   *   * * *   * *
-* * *** ******* * * ***** *** * * * * ***
-* *   * *       *   *   *   * * * * *   *
-* * *** * *********** * *** * * * * *** *
-* * *   *     *     * *   *   * * *   * *
-* * * ******* * *** * * ***** * * *** ***
-* * * *     * * * *   *     * * * *   * *
-* *** *** * * * * ******* *** * *** *** *
-*         * *           *     *         *
-*********************E*******************
-
