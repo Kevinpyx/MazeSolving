@@ -14,3 +14,5 @@ The maze grid is given next. It will consist of an H×W matrix of characters, wh
 - S represents the start cell,
 - E represents the end cell, and
 - any other character represents a blocked cell.
+
+The .txt files in the repository are example maze files.
